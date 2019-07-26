@@ -29,7 +29,7 @@ for ($x=1; $x<=30; $x++) {
     imageline($image, $x1, $y1, $x2, $y2, $text_color);
 }
 
-imagettftext($image, $font_size, 0, 15, 30, $text_color,'fast99.ttf', $text);
+imagettftext($image, $font_size, 0, 15, 30, $text_color,'calliehandfullversion.ttf', $text);
 imagejpeg($image);
 
 ?>
