@@ -1,2 +1,2 @@
 <?php
-print "<strong>Hello</strong>";
+print "<strong>Hello World</strong>";
