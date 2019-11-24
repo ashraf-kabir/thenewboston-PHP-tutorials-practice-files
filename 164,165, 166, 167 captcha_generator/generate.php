@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Asus
- * Date: 9/25/2018
- * Time: 10:41 PM
- */
-
 session_start();
 header('Content-type: image/jpeg');
 
@@ -29,7 +22,7 @@ for ($x=1; $x<=30; $x++) {
     imageline($image, $x1, $y1, $x2, $y2, $text_color);
 }
 
-imagettftext($image, $font_size, 0, 15, 30, $text_color,'calliehandfullversion.ttf', $text);
+imagettftext($image, $font_size, 0, 15, 30, $text_color,'CallieHand.ttf', $text);
 imagejpeg($image);
 
 ?>

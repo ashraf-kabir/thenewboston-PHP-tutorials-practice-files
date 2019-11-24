@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Asus
- * Date: 9/25/2018
- * Time: 10:41 PM
- */
-
 session_start();
 
 if (!isset($_POST['secure'])) {
